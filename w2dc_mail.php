@@ -32,8 +32,7 @@ if (is_admin()){
 }
 $url = trim($_SERVER['REQUEST_URI'], '/');
 $url = substr($url, 0, strpos($url, '/'));
-if (in_array($url, $urls)){
-
+if (!function_exists('w2dc_mail_plugin_footer_scripts') && in_array($url, $urls)){
 
 	add_action( 'wp_footer', 'w2dc_mail_plugin_footer_scripts' );
 	function w2dc_mail_plugin_footer_scripts(){

@@ -1,7 +1,9 @@
 ﻿=== W2DC Mail ===
-Contributors: Emese Ágota Stampel
+Contributors: estampel
 Donate link: https://sosprogramozas.hu
-License: Commercial
+Tested:  5.7
+Stable tag: 1.1
+License: GPLv2 or later
 
 == Description ==
 
