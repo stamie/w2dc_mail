@@ -70,7 +70,7 @@ class MailsterW2DC {
 			$results = $wpdb->get_results( "SELECT * FROM {$wpdb->prefix}mailster_lists", OBJECT );
 			$list_ids  = array();
 			foreach ($results as $result){
-				$list_ids[]  = $results->ID;
+				$list_ids[]  = $result->ID;
 			}
 		} else {
 			$list_ids  = $lists;

@@ -33,13 +33,16 @@ if (is_admin()){
 $url = trim($_SERVER['REQUEST_URI'], '/');
 $url = substr($url, 0, strpos($url, '/'));
 if (!function_exists('w2dc_mail_plugin_footer_scripts') && in_array($url, $urls)){
-
 	add_action( 'wp_footer', 'w2dc_mail_plugin_footer_scripts' );
 	function w2dc_mail_plugin_footer_scripts(){
 		include __DIR__.'/includes/controller.php';
 	}
+}
+if (in_array($url, $urls)){
 
 	if (!is_admin() && isset($_POST["w2dc_mailster_newsletter"])){
+		$mail = new MailsterW2DC();
+	
 		$contact_form = array(
 			"email" => sanitize_email($_POST["contact_email"]),
 			"lastname" => sanitize_text_field($_POST["post_title"]),
