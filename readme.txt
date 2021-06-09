@@ -35,4 +35,4 @@ Your customers can subscribe to the newsletter, and partners lists at once.
 1. The installations 3 step
 2. The installations 4 step
 3. The W2DC Mail admin page
-4. The W2DC Mail user page
+4. The W2DC Mail user page 
