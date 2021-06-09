@@ -17,6 +17,8 @@ Your customers can subscribe to the newsletter, and partners lists at once.
 *   "Contributors" estampel
 *   "Tags" 1.1
 *   "Requires at least" 5.7
+* Required: Mailster 2.4 https://www.gplplus.com/product/mailster-email-newsletter-plugin-for-wordpress/ 
+*       and Web 2.0 Directory https://codecanyon.net/item/web-20-directory-plugin-for-wordpress/6463373
 
 == Installation ==
 
