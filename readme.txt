@@ -20,7 +20,8 @@ Your customers can subscribe to the newsletter, and partners lists at once.
 
 == Installation ==
 
-* Required: Mailster 2.4 and Web 2.0 Directory
+* Required: Mailster 2.4 https://www.gplplus.com/product/mailster-email-newsletter-plugin-for-wordpress/ 
+*       and Web 2.0 Directory https://codecanyon.net/item/web-20-directory-plugin-for-wordpress/6463373
 
 1. Install the requires plugins
 2. Turns on the requires plugins
